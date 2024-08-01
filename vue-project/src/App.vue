@@ -192,7 +192,7 @@
     <Drawer :total-price="totalPrice" v-if="drawerOpen"/>
     
     <div class="bg-white w-4/5 m-auto  rounded-xl shadow-xl mt-14">
-      <Header :total-price="totalPrice" @open-drawer="openDrawer"/>
+      <Header :total-price="totalPrice" @open-drawer="openDrawer"><p>HI</p></Header>
       <div class="p-10">
         <RouterView />
 
