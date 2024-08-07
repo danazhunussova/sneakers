@@ -5,13 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "BASE_URL=/sneakers/ vite build",
+    "build": "VITE_BASE_URL=/sneakers/ vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
     "serve": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": " vue-cli-service && gh-pages -d dist"
   },
   "dependencies": {
     "vue": "^3.4.29"
