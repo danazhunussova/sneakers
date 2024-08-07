@@ -112,13 +112,13 @@ export default {
 
                 <InfosBlock v-if="orderId " class="text-center" 
                     title="Заказ оформлен!" 
-                    image-url="order-success-icon.png" 
+                    image-url="/order-success-icon.png" 
                     :description="`Ваш заказ №${orderId} скоро будет передан курьерской службе`"
                 />
 
                 <InfosBlock v-if="!orderId" class="text-center" 
                     title="Корзина пустая" 
-                    image-url="package-icon.png" 
+                    image-url="/package-icon.png" 
                     description="Добавьте хотя бы 1 пару кроссовок, чтобы сделать заказ."
                 />
 
