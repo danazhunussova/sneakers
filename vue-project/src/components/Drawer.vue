@@ -1,9 +1,10 @@
-<script >
+<script setup>
     import DrawerHead from './DrawerHead.vue';
     import CartItem from './CartItem.vue';
     import CartItemList from './CartItemList.vue';
     import InfosBlock from './InfosBlock.vue';
-    /*import axios from 'axios';
+    
+    import axios from 'axios';
     import {ref, inject, watch, computed} from 'vue';
 
     const props = defineProps({
@@ -35,9 +36,9 @@
     const cartIsEmpty = computed(() => mycart.value.length === 0)
 
     const buttonDisabled = computed(()=>isCreatingOrder.value || cartIsEmpty.value)
-*/
 
 
+/*
 export default {
     
   components: {
@@ -94,7 +95,7 @@ export default {
       }
     }
   }
-};
+};*/
 </script>
 
 <template>
