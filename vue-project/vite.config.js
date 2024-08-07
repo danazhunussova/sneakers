@@ -6,7 +6,7 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/sneakers/' : '/',
+  base: process.env.BASE_URL || '/',
   plugins: [
     vue(),
     vueJsx(),
