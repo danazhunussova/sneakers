@@ -36,7 +36,7 @@
 
         <img 
         @click="onClickAdd" 
-        :src="isAdded ? 'checked.svg' : 'plus.svg'" 
+        :src="isAdded ? '../checked.svg' : '../plus.svg'" 
         alt="Plus">
       </div>
     </div>
