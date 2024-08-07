@@ -10,7 +10,7 @@
 </script>
 <template>
     <div class="w-full border border-slate-200 p-4 rounded-xl flex items-center gap-4">
-        <img class="w-16 h-16" :src="'../'+imageUrl" :alt="title">
+        <img class="w-16 h-16" :src="imageUrl" :alt="title">
         <div class="flex flex-col w-full text-sm"> 
             <p >{{title}} </p>
             <div class="flex justify-between mt-2"> 
