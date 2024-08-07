@@ -24,7 +24,7 @@
       alt="Like 1" 
       class="absolute top-8 left-8"/>
       
-      <img :src="imageUrl" alt="Sneaker">
+      <img :src="'../'+imageUrl" alt="Sneaker">
 
       <p class="mt-2">{{title}}</p>
 
