@@ -5,7 +5,7 @@
     import InfosBlock from './InfosBlock.vue';
     
     import axios from 'axios';
-    
+
     import {ref, inject, watch, computed} from 'vue';
 
     const props = defineProps({
@@ -22,7 +22,7 @@
         isCreatingOrder.value = true
         const { data } = await axios.post('https://6e5e12b4bb07b2b5.mokky.dev/orders', {
             items: mycart.value,
-            totalPrice: props.totalPrice.value
+            totalPrice: props.totalPrice
         })
         mycart.value = []
         orderId.value = data.id;
