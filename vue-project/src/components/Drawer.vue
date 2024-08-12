@@ -4,7 +4,7 @@
     import CartItemList from './CartItemList.vue';
     import InfosBlock from './InfosBlock.vue';
     import axios from 'axios';
-    import {ref, inject, watch, computed} from 'vue';
+    /*import {ref, inject, watch, computed} from 'vue';
 
     const props = defineProps({
         totalPrice: Number,
